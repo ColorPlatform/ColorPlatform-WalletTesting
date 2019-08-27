@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7508" started-at="2019-08-27T05:23:38Z" finished-at="2019-08-27T05:23:45Z">
+    <groups>
+    </groups>
+    <test name="Color Wallet tests" duration-ms="7508" started-at="2019-08-27T05:23:38Z" finished-at="2019-08-27T05:23:45Z">
+      <class name="walletAutomation.testcases.WalletTestCases">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="setupSuite" is-config="true" duration-ms="262" started-at="2019-08-27T10:23:38Z" finished-at="2019-08-27T10:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="setup" is-config="true" duration-ms="5020" started-at="2019-08-27T10:23:38Z" finished-at="2019-08-27T10:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signupTest()[pri:1, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="signupTest" duration-ms="36" started-at="2019-08-27T10:23:43Z" finished-at="2019-08-27T10:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="373" started-at="2019-08-27T10:23:43Z" finished-at="2019-08-27T10:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signupTest status=SUCCESS method=WalletTestCases.signupTest()[pri:1, instance:walletAutomation.testcases.WalletTestCases@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="withAnyAddressTest()[pri:2, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="withAnyAddressTest" duration-ms="2" started-at="2019-08-27T10:23:43Z" finished-at="2019-08-27T10:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withAnyAddressTest -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="934" started-at="2019-08-27T10:23:43Z" finished-at="2019-08-27T10:23:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=withAnyAddressTest status=SUCCESS method=WalletTestCases.withAnyAddressTest()[pri:2, instance:walletAutomation.testcases.WalletTestCases@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="WithBackupCodeTest()[pri:3, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="WithBackupCodeTest" duration-ms="2" started-at="2019-08-27T10:23:44Z" finished-at="2019-08-27T10:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WithBackupCodeTest -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="86" started-at="2019-08-27T10:23:44Z" finished-at="2019-08-27T10:23:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WithBackupCodeTest status=SUCCESS method=WalletTestCases.WithBackupCodeTest()[pri:3, instance:walletAutomation.testcases.WalletTestCases@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="f1()[pri:4, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="f1" duration-ms="3" started-at="2019-08-27T10:23:44Z" finished-at="2019-08-27T10:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="98" started-at="2019-08-27T10:23:44Z" finished-at="2019-08-27T10:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f1 status=SUCCESS method=WalletTestCases.f1()[pri:4, instance:walletAutomation.testcases.WalletTestCases@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="f2()[pri:5, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="f2" duration-ms="11" started-at="2019-08-27T10:23:45Z" finished-at="2019-08-27T10:23:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at walletAutomation.testcases.WalletTestCases.f2(WalletTestCases.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="97" started-at="2019-08-27T10:23:45Z" finished-at="2019-08-27T10:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f2 status=FAILURE method=WalletTestCases.f2()[pri:5, instance:walletAutomation.testcases.WalletTestCases@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="f3()[pri:6, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="f3" duration-ms="2" started-at="2019-08-27T10:23:45Z" finished-at="2019-08-27T10:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="237" started-at="2019-08-27T10:23:45Z" finished-at="2019-08-27T10:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f3 status=SUCCESS method=WalletTestCases.f3()[pri:6, instance:walletAutomation.testcases.WalletTestCases@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="f4()[pri:7, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="f4" duration-ms="2" started-at="2019-08-27T10:23:45Z" finished-at="2019-08-27T10:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="138" started-at="2019-08-27T10:23:45Z" finished-at="2019-08-27T10:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f4 status=SUCCESS method=WalletTestCases.f4()[pri:7, instance:walletAutomation.testcases.WalletTestCases@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:walletAutomation.testcases.WalletTestCases@5c7fa833]" name="tearDown" is-config="true" duration-ms="394" started-at="2019-08-27T10:23:45Z" finished-at="2019-08-27T10:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- walletAutomation.testcases.WalletTestCases -->
+    </test> <!-- Color Wallet tests -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Color Wallet tests(failed)">
+    <classes>
+      <class name="walletAutomation.testcases.WalletTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="f2"/>
+          <include name="setupSuite"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- walletAutomation.testcases.WalletTestCases -->
+    </classes>
+  </test> <!-- Color Wallet tests(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
